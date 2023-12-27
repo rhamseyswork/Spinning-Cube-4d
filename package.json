@@ -1,6 +1,7 @@
 {
   "name": "spinningcube4d.org",
   "version": "1.0.0",
+  "type": "module",
   "description": "spinning cube 4d is a non-profit open source educational project",
   "main": "main.js",
   "scripts": {
