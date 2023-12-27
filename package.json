@@ -6,9 +6,10 @@
   "main": "main.js",
   "scripts": {
     "test": "test",
-    "start": "http-server",
-    "dev": "nodemon main.js",
-    "start-python": "python3 custom_server.py"
+    "start": "node server.js",
+    "start-python": "python3 custom_server.py",
+    "dev": "node app.js",
+    "start-http": "http-server"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   "homepage": "https://github.com/rhamseyswork/Spinning-Cube-4d#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "python-shell": "^5.0.0",
     "three": "^0.160.0"
   },
   "devDependencies": {
