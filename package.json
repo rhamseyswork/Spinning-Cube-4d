@@ -6,7 +6,7 @@
   "main": "main.js",
   "scripts": {
     "test": "test",
-    "start": "node main.js",
+    "start": "http-server",
     "dev": "nodemon main.js"
   },
   "repository": {
@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/rhamseyswork/Spinning-Cube-4d#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "three": "^0.160.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
