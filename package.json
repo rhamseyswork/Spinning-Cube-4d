@@ -1,0 +1,33 @@
+{
+  "name": "spinningcube4d.org",
+  "version": "1.0.0",
+  "description": "spinning cube 4d is a non-profit open source educational project",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhamseyswork/Spinning-Cube-4d.git"
+  },
+  "keywords": [
+    "Spinning",
+    "Cube",
+    "4d",
+    "Education"
+  ],
+  "author": "OCPaceSetters LLC - Rhamseys Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhamseyswork/Spinning-Cube-4d/issues"
+  },
+  "homepage": "https://github.com/rhamseyswork/Spinning-Cube-4d#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
