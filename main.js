@@ -1,5 +1,4 @@
 import WindowManager from './WindowManager.js'
-import * as THREE from 'three';
 
 const t = THREE;
 let camera, scene, renderer, world;
